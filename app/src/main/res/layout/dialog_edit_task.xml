@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_edit_task_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update task"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/dialog_edit_task_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit plan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/dialog_edit_task_btn_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:layout_weight="1"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/dialog_edit_task_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="1"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

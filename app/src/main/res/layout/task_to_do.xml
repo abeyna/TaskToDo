@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/task_to_do_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task"
+        android:textSize="20sp"
+        android:layout_weight="9"/>
+
+    <ImageView
+        android:id="@+id/task_to_do_img_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/task_to_do_img_delete" />
+
+    <ImageView
+        android:id="@+id/task_to_do_img_edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/task_to_do_img_edit" />
+</LinearLayout>
